@@ -1,0 +1,42 @@
+:root{
+    --cor-cabecalho: #C09F34;
+    --cor-mulher: #9B7050;
+    --cor-homem: #7C2013;
+}
+
+body{
+    background-image: url(capafilmes.jpeg);
+    
+}
+
+table{
+    background-image: linear-gradient(180deg, var( --cor-cabecalho), var(--cor-mulher), var(--cor-homem));
+}
+table, tr, th, td {
+    width: 800px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    margin: auto;
+    max-width: 60%;
+    min-width: 30%;
+}
+
+th{
+    font-size: 30px;
+    /*background-color: var(--cor-cabecalho);*/
+    color: rgb(0, 0, 0);
+}
+
+.principal{
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.mulheres{
+   /* background-color: var(--cor-mulher);*/
+}
+
+.homens{
+   /* background-color: var(--cor-homem);*/
+}
