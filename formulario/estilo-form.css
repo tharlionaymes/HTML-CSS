@@ -9,16 +9,14 @@ h1{
     text-align: center;
     color: lightseagreen;
 }
-.imagem{
-    background-image: url(imagens-cap19/wallpaper002.jpg);
-    background-attachment: fixed;
+.imagem{   
     width: 400px;
     margin: auto;
     padding: 10px;
-    background-size: cover;
 }
 
 p {    
+    
     width: 400px;
     margin: auto;
     padding: 10px;
@@ -26,18 +24,27 @@ p {
 }   
 
 .enviar{
+
     border-radius: 5px 5px;
     width: 10pc;
     height: 30px;
 }
 
 .enviar:hover{
+
     background-color: rgb(0, 0, 0);
     color: white;
     
 }
+.parte1, .parte2 , .parte3{
 
+    margin: 20px 5px;
+    width: 340px;
+    height: 130px;
+    padding: 10px;
+}
 .parte1{
+    
     background-color: rgb(92, 0, 0);
     border-style: solid;
     border-color: black;
@@ -45,7 +52,16 @@ p {
 }
 
 .parte2{
+   
     background-color: rgb(0, 37, 0);
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px 10px;
+}
+
+.parte3{
+    
+    background-color: rgb(0, 2, 37);
     border-style: solid;
     border-color: black;
     border-radius: 10px 10px;
