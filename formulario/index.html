@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo-form.css">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Formulário</h1>
+    <section class="imagem">
+        <form action="cadastro.php" method="post">
+            
+            <div class="parte1">
+                <p>
+                    <label for="inome">Nome:</label>
+                    <input type="text" name="nome" id="inome" required>
+                </p>
+                
+                <p>
+                    <label for="isobrenome">Sobrenome:</label>
+                    <input type="text" name="sobrenome" id="isobrenome" required>
+                </p>
+                <!--<p>
+                    <input class="enviar" type="submit" value="Enviar">
+                </p>>-->
+            </div><br>
+
+            <div class="parte2">
+                <p>
+                    <label for="iusuario">Usuário:</label>
+                    <input type="text" name="usuario" id="isusuario" required minlength="8" maxlength="15" placeholder="Nome do Usuário">
+                </p>
+                <p>
+                    <label for="isenha">Senha:</label>
+                    <input type="password" name="senha" id="isenha" required minlength="8" maxlength="20" placeholder="Digite sua Senha">
+                </p>
+                <p>
+                    <input class="enviar" type="submit" value="Enviar">
+                    <input class="enviar" type="reset" value="Limpar">
+                </p>
+            </div>
+
+        </form>   
+    </section>    
+</body>
+</html>
