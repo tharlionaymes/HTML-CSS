@@ -1,5 +1,11 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
 body{
     background-color: rgba(0, 0, 0, 0.658);
+    font-family: Arial, Helvetica, sans-serif;
     
 }
 
@@ -7,7 +13,7 @@ h1{
     width: 400px;
     margin: auto;
     text-align: center;
-    color: lightseagreen;
+    color: rgb(220, 150, 20);
 }
 .imagem{   
     width: 400px;
@@ -15,18 +21,25 @@ h1{
     padding: 10px;
 }
 
-p {    
+p{    
     
     width: 400px;
     margin: auto;
     padding: 10px;
     color: white;
-}   
+    font-weight: 900;
+}
+
+legend{
+
+    color: white;
+    font-weight: 900;
+}
 
 .enviar{
 
     border-radius: 5px 5px;
-    width: 10pc;
+    width: 100px;
     height: 30px;
 }
 
@@ -36,11 +49,10 @@ p {
     color: white;
     
 }
-.parte1, .parte2 , .parte3{
+.parte1, .parte2 , .parte3, .fieldset, .fieldset2, .fieldset3{
 
-    margin: 20px 5px;
-    width: 340px;
-    height: 130px;
+    width: 25vw;
+    margin: 20px 5px;    
     padding: 10px;
 }
 .parte1{
@@ -62,6 +74,38 @@ p {
 .parte3{
     
     background-color: rgb(0, 2, 37);
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px 10px;
+}
+
+.parte4{
+    
+    background-color: rgb(44, 0, 65);
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px 10px;
+}
+
+.fieldset{
+    
+    background-color: rgb(44, 0, 65);
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px 10px;
+}
+
+.fieldset2{
+    
+    background-color: rgb(0, 65, 51);
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px 10px;
+}
+
+.fieldset3{
+    
+    background-color: rgb(105, 0, 79);
     border-style: solid;
     border-color: black;
     border-radius: 10px 10px;
