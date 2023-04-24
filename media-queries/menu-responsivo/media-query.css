@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+/*Todas as demais mídias*/
+
+/*typical device breakpoints
+    Pequenas Telas: até 600px
+    Celular: de 601px até 768px
+    Tablet: 769px até 992px
+    Desktop: 993px até 1200px
+    Grandes Telas: acima de 1201px
+*/
+
+/*Impressão*/
+@media print{
+    body{        
+        background-color: white;        
+    }
+
+    main{
+        border: 2px solid black;
+        text-align: center;
+    }
+
+    main::after{
+        content: "Versão de Impressão";        
+    }
+
+    main h1{
+        text-shadow: none;
+        color: black;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+}
+
+/*Pequenas Telas, Celular e Tablets*/
+@media screen and (min-width: 992px) {
+    #menu-barras{
+        display:none;
+    }
+   
+    menu{
+        display: block;
+    }
+    
+    menu > ul > li{
+        display: inline-block;
+    }
+
+    main{
+        width: 800px;
+    }
+}
+
