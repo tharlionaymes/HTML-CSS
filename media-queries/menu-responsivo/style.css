@@ -6,14 +6,12 @@
     padding: 0;
 }
 
-html{
-    background: url(camisa-flamengo.jpg) no-repeat;
-    background-size: cover;
-    background-position: center center;
-}
 
 body, html{
     background-color: rgba(0, 0, 0, 0.479);
+    background: url(camisa-flamengo.jpg) no-repeat; 
+    background-size: cover;
+    background-position: center center;
     
 }
 
@@ -29,41 +27,10 @@ header > h1{
     font-size: 50px;
 }
 
-#menu-barras{
-    background-color: rgb(128, 0, 0);
-    color: rgb(0, 0, 0);
-    display: block;
-    text-align: center;
-    padding: 10px;
-    cursor: pointer;
-}
-
-#menu-barras:hover{
-    background-color:rgb(255, 34, 34) ;
+.nav-link:hover{
+    background-color: #f61a31;
     color: black;
-}
-
-menu{
-    display: none;
-}
-
-menu > ul{
-    list-style-type: none;
-}
-
-menu > ul > li > a{
-    display: block;
-    padding: 10px;
-    text-decoration: none;
-    background-color: darkred;
-    color: white;
-    text-align: center;
-    border-top: 2px solid white;
-}
-
-menu > ul > li > a:hover{
-    background-color: rgb(255, 57, 57);
-
+   
 }
 
 main{
